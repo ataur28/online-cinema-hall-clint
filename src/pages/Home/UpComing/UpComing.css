@@ -1,0 +1,19 @@
+@keyframes run {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(20px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .running-animation {
+    animation: run 2s linear infinite;
+  }
+  
+  .paused {
+    animation-play-state: paused;
+  }
